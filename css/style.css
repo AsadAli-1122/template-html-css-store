@@ -1,0 +1,239 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+.main-nav-poster{
+    background-image: radial-gradient(white,#fad4d4);
+}
+.main{
+    width: 100%;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-1{
+    width: 20%;
+    text-align: center;
+}
+.nav-1 img{
+    width: 140px;
+    margin: 20px 0 0 45px;
+}
+.nav-2{
+    width: 50%;
+}
+.nav-2>ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a{
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+a:hover{
+    transform: scale(1.2);
+    color: orangered;
+}
+.main-poster{
+    width: 100%;
+    /* height: 500px; */
+    display: flex;
+}
+.main-poster>div{
+    width: 50%;
+    height: 100%;
+}
+.main-poster>div>img{
+    width: 400px;
+    margin: 10% 0 10% 0;
+}
+.main-poster>div>h1{
+    margin-top: 20%;
+    margin-left: 12%;
+}
+.main-poster>div>p{
+    margin-top: 3%;
+    margin-left: 12%;
+}
+.main-poster>div>button{
+    margin-top: 2%;
+    margin-left: 12%;
+    margin-bottom: 10%;
+}
+.future-products{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.future-products>div{
+    margin-bottom: 25px;
+}
+.future-products>div img{
+    margin: 10% 0 0 0;
+    width: 350px;
+}
+.label{
+    display: flex;
+    justify-content: space-around;
+}
+.label>h1{
+    margin-bottom: 20px;
+    padding: 20px 0 5px 0;
+    border-bottom: 5px solid orangered;
+}
+.latest-products{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+.latest-products>div{
+    margin-bottom: 25px;
+}
+.latest-products>div img{
+    margin: 12% 0 0 0;
+    width: 200px;
+}
+.latest-products-2{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+.latest-products-2>div{
+    margin-bottom: 25px;
+}
+.latest-products-2>div img{
+    margin: 12% 0 0 0;
+    width: 200px;
+}
+.smart-band{
+    background-image: radial-gradient(white,#fad4d4);
+    width: 100%;
+    display: flex;  
+    margin: 20px 0 20px 0;
+}
+.smart-band>div{
+    width: 50%;
+    height: 100%;
+    padding: 5% 0 5% 5%;
+}
+.smart-band>div img{
+    margin: 35px;
+    width: 400px;
+}
+.smart-band>div>button{ 
+    margin: 2% 0 0 3%;
+}
+.comments{
+    display: flex;
+    justify-content: space-evenly;
+}
+.comments>div{
+    margin: 30px;
+    text-align: center;
+    padding: 25px;
+    box-shadow: 0px 0px 20px 5px darkgrey;
+    transition: 0.8s;
+}
+.comments>div:hover{
+    transform: scale(1.1);
+    background-color: #fff;
+}
+.comments>div>figure>img{
+    width: 100px;
+}
+.comments>div h3{
+    margin: 10px 0 25px 0;
+}
+.comments>div>img{
+    margin: 15px 0;
+    width: 130px;
+    border-radius: 50%;
+}
+.brands{
+    display: flex;
+    justify-content: space-evenly;
+}
+.brands>div img{
+    width: 120px;
+    filter: grayscale(1);
+    margin: 35px 0;
+    transition: 0.8s;
+}
+.brands>div img:hover{
+    transform: scale(1.2);
+    filter: grayscale(0);
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+    color: darkgray;
+}
+.footer h1{
+    color: whitesmoke;
+    margin: 10px 0 25px 0;
+}
+.footer-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-1>div{
+    width: 30%;
+    padding: 35px 0 0 0;
+    text-align: center;
+}
+.footer-2{
+    text-align: center;
+    padding: 35px 0 0 0;
+}
+.footer-2>ul{
+    list-style-type: none;
+}
+.footer-2>ul>li{
+    margin: 5px 0;
+}
+.footer-2>ul a{
+    color: darkgrey;
+    transition: 00.5s;
+}
+.footer-2>ul a:hover{
+    color: blue;
+}
+.footer-3{
+    margin-top: 20px;
+    text-align: center;
+    padding: 5px 0;
+}
+.footer-3>p{
+    margin: 5px;
+}
+button{
+    filter: blur(0.4px);
+    transition: 1s;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 35px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    font-weight: 900;
+}
+button:hover{
+    filter: none;
+    transform: scale(1.1);
+}
+.fa-star{
+    margin: 3px 0;
+    color: gold;
+}
